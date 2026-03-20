@@ -102,4 +102,52 @@
         },
         "data": "{\"emergency_contact_number\": \"{number}\", \"password_confirmation\": \"{pgen_12}\", \"address\": \"\", \"address_1\": \"Dhaka,bd,ch\", \"address_2\": \"My,won,home\", \"telephone\": \"{number}\", \"agree\": true, \"device_name\": \"web_browser\", \"password\": \"{pgen_12}\", \"district\": \"Outside Dhaka\", \"post_code\": \"200\", \"name\": \"{name_6}\", \"company\": \"dhaka\", \"email\": \"{egen_8}@gmail.com\"}"
     }    
-]
+
+    },
+    {
+        "name": "robi.com.bd",
+        "url": "https://da-api.robi.com.bd/da-nll/otp/send",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"msisdn\": \"{number}\"}"
+    },
+    {
+        "name": "shikho.com",
+        "url": "https://api.shikho.com/public/activity/otp",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"phone\": \"{number}\", \"intent\": \"ap-discount-request\"}"
+    },
+    {
+        "name": "garibookadmin.com",
+        "url": "https://api.garibookadmin.com/api/v3/user/login",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"recaptcha_token\": \"garibookcaptcha\", \"mobile\": \"{number}\", \"channel\": \"web\"}"
+    },
+    {
+        "name": "pathao.com",
+        "url": "https://api.pathao.com/v2/auth/register",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"country_prefix\": \"880\", \"national_number\": \"{number_no_zero}\", \"country_id\": 1}"
+    },
+    {
+        "name": "fundesh.com.bd",
+        "url": "https://fundesh.com.bd/api/auth/generateOTP?service_key=",
+        "method": "POST",
+        "headers": {
+            "User-Agent": "Mozilla/5.0"
+        },
+        "data": "{\"msisdn\": \"{number_no_zero}\"}"
+    }
+
+        ]
