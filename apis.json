@@ -1,0 +1,105 @@
+[
+    {
+        "name": "ebmeb.gov.bd",
+        "url": "https://efiling.ebmeb.gov.bd/index.php/insreport/generate_otp",
+        "pre_request_url": "https://efiling.ebmeb.gov.bd/index.php/insreport",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "X-Requested-With": "XMLHttpRequest",
+            "Origin": "https://efiling.ebmeb.gov.bd",
+            "Referer": "https://efiling.ebmeb.gov.bd/index.php/insreport"
+        },
+        "data": "{\"mobile\": \"{number}\"}"
+    },
+    {
+        "name": "easy.com.bd",
+        "url": "https://core.easy.com.bd/api/v1/registration",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"password\": \"{pgen_12}\", \"password_confirmation\": \"{pgen_12}\", \"device_key\": \"{rand_32}\", \"name\": \"{name_6}\", \"mobile\": \"{number}\", \"email\": \"{egen_8}info@gmail.com\"}"
+    },
+    {
+        "name": "training.gov.bd",
+        "url": "https://training.gov.bd/backoffice/api/user/sendOtp",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"mobile\": \"{number}\"}"
+    },
+    {
+        "name": "qcoom.com",
+        "url": "https://auth.qcoom.com/api/v1/otp/send",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"mobileNumber\": \"+88{number}\"}"
+    },
+    {
+        "name": "apex4u.com",
+        "url": "https://api.apex4u.com/api/auth/login",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"phoneNumber\": \"{number}\"}"
+    },
+    {
+        "name": "osudpotro.com",
+        "url": "https://api.osudpotro.com/api/v1/users/send_otp",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"os\": \"web\", \"mobile\": \"+88-{number}\", \"language\": \"en\", \"deviceToken\": \"web\"}"
+    },
+    {
+        "name": "busbd.com.bd",
+        "url": "https://api.busbd.com.bd/api/auth",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"phone\": \"+88{number}\"}"
+    },
+    {
+        "name": "grameenphone.com",
+        "url": "https://bkshopthc.grameenphone.com/api/v1/fwa/request-for-otp",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"phone\": \"{number}\", \"language\": \"en\", \"email\": \"\"}"
+    },
+    {
+        "name": "deshal.net",
+        "url": "https://app.deshal.net/api/auth/login",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"phone\": \"{number}\"}"
+    },
+    {
+        "name": "chorki.com",
+        "url": "https://api-dynamic.chorki.com/v2/auth/login?country=BD&platform=web&language=en",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"number\": \"+88{number}\"}"
+    },
+    {
+        "name": "regalfurniturebd.com",
+        "url": "https://regalfurniturebd.com/api/auth/register",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8"
+        },
+        "data": "{\"emergency_contact_number\": \"{number}\", \"password_confirmation\": \"{pgen_12}\", \"address\": \"\", \"address_1\": \"Dhaka,bd,ch\", \"address_2\": \"My,won,home\", \"telephone\": \"{number}\", \"agree\": true, \"device_name\": \"web_browser\", \"password\": \"{pgen_12}\", \"district\": \"Outside Dhaka\", \"post_code\": \"200\", \"name\": \"{name_6}\", \"company\": \"dhaka\", \"email\": \"{egen_8}@gmail.com\"}"
+    }    
+]
